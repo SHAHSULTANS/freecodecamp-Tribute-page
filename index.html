@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Main element containing all other elements -->
+    <main id="main">
+
+        <!-- Title of the tribute page -->
+        <h1 id="title">Interactive Quiz App</h1>
+        <p>This page created by Shanto</p>
+
+        <!-- Image container (div or figure) -->
+        <div id="img-div">
+            <img id="image" src="https://raw.githubusercontent.com/SHAHSULTANS/Picture/main/Screenshot%20(11).png"
+                alt="Descriptive text about the image">
+            <figcaption id="img-caption">Test your knowledge across a variety of topics!</figcaption>
+        </div>
+
+
+        <!-- Tribute information -->
+        <section id="tribute-info">
+            <h3>Key Feature Of This Projects</h3>
+            <ul>
+                <li><strong>Bootstrap Integration:</strong> The page includes Bootstrap for styling, providing  layout and predefined classes like `btn`, `container`, and `bg-light`.</li>
+
+                <li><strong>Custom Styles:</strong> It contains custom styles for elements like `.question-card` to add
+                    shadows and padding, and `.btn` states for correct/incorrect answers.</li>
+
+                <li><strong>Quiz Questions:</strong> The quiz features an array of multiple-choice questions, each with
+                    several options and one correct answer.</li>
+
+                <li><strong>Timer for Questions:</strong> Each question has a countdown timer of 12 seconds, displayed
+                    using a `<span>` with the ID `timer`.</li>
+
+                <li><strong>Answer Validation:</strong> The script checks whether the selected answer is correct or
+                    incorrect, visually highlighting the answer buttons in green or red.</li>
+
+                <li><strong>Dynamic Question Loading:</strong> Questions are loaded dynamically from an array, and users can navigate through the quiz by answering each question.</li>
+
+                <li><strong>Score Tracking:</strong> The score is calculated based on correct answers and displayed at
+                    the end of the quiz.</li>
+
+                <li><strong>Session Storage:</strong> The quiz state (current question and score) is saved in
+                    `sessionStorage` to preserve progress if the page is reloaded.</li>
+
+                <li><strong>Certificate Generation:</strong> After completing the quiz, users can generate a PDF
+                    certificate using the `jsPDF` library, which includes their name and score.</li>
+
+                <li><strong>Responsive Design:</strong> The layout is responsive, with question cards centered and the
+                    UI adapting to different screen sizes.</li>
+            </ul>
+
+
+        </section>
+
+        <!-- Tribute link for additional information -->
+        <a id="tribute-link" href="https://shahsultan.netlify.app" target="_blank" style="text-align: left;">
+            Participate InterActive Quiz Exam & Get Certificate.
+        </a>
+
+    </main>
+</body>
+
+</html>
